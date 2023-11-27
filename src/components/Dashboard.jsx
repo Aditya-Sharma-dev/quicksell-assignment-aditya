@@ -1,16 +1,16 @@
 import React from "react";
-import '../styles/Dashboard.css'
+import "../styles/Dashboard.css";
 import { useSelector } from "react-redux";
 import Card from "./Card";
-import StarIcon from '@mui/icons-material/Star';
-import AddIcon from '@mui/icons-material/Add';
+import StarIcon from "@mui/icons-material/Star";
+import AddIcon from "@mui/icons-material/Add";
 
 function Dashboard() {
-    const { selectedData, user } = useSelector(
-        (state) => state.SelectDataReducer
-      );
+  const { selectedData, user } = useSelector(
+    (state) => state.SelectDataReducer
+  );
   return (
-    selectedData && (
+    selectedData && (   
       <div className="dashContainer" style={{ justifyContent: "space-evenly" }}>
         {selectedData.map((elem, index) => {
           return (

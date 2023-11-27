@@ -3,15 +3,23 @@
     align-items: flex-start;
     gap: 20px;
     flex-wrap: wrap;
-    background: lavender;
+    background: whitesmoke;
     padding: 5px 10px;
+    height: 100vh;
 }
 
 .dashCardContainer{
     display: flex;
-    justify-content: center;
     align-content: center;
     flex-direction: column;
     gap: 5px;
     width : 300px;
+}
+.dashCardHeading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dashList{
+    width: 100%;
 }

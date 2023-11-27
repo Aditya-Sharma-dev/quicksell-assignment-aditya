@@ -3,7 +3,7 @@ import '../styles/Card.css'
 
 function Card(props) {
   return (
-    <div className="cardContainer flex-gap-10" style={{ gap: "5px" }}>
+    <div className="cardContainer flex-gap-10" style={{ gap: "5px" , marginBottom: "10px"}}>
       <div className="cardHeading flex-sb">
         <span style={{ textTransform: "uppercase" }} className="color-grey">
           {props.id}
